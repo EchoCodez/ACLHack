@@ -13,11 +13,9 @@ const Approach = () => {
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
         <Card
-          title="Planning & Strategy"
-          icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          title="Record and Upload Your Data"
+          icon={<AceternityIcon order="Step 1" />}
+          des="Type up a transcript of your conversation and record the audio. Submit the transcript and audio recording to our google form."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -26,8 +24,8 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Progress Update"
-          icon={<AceternityIcon order="Phase 2" />}
+          title=""
+          icon={<AceternityIcon order="Step 2" />}
           des="Once we agree on the plan, I cue my lofi playlist and dive into
           coding. From initial sketches to polished code, I keep you updated
           every step of the way."
@@ -49,7 +47,7 @@ const Approach = () => {
         </Card>
         <Card
           title="Development & Launch"
-          icon={<AceternityIcon order="Phase 3" />}
+          icon={<AceternityIcon order="Step 3" />}
           des="This is where the magic happens! Based on the approved design, 
           I'll translate everything into functional code, building your website
           from the ground up."
