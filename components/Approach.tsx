@@ -13,7 +13,7 @@ const Approach = () => {
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
         <Card
-          title="Record and Upload Your Data"
+          title="Record and Upload your Data"
           icon={<AceternityIcon order="Step 1" />}
           des="Type up a transcript of your conversation and record the audio. Submit the transcript and audio recording to our google form."
         >
@@ -24,11 +24,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title=""
+          title="Analyzing your Conversation"
           icon={<AceternityIcon order="Step 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          des="Our program picks up your input and sends it to a machine-learning algorithm. The algorithm identifies whether how good or bad the conversation is."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -46,11 +44,9 @@ const Approach = () => {
           {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
-          title="Development & Launch"
+          title="Report"
           icon={<AceternityIcon order="Step 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          des="Once the conversation has been analyzed, you will get a report sent to your email."
         >
           <CanvasRevealEffect
             animationSpeed={3}
