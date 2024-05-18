@@ -8,7 +8,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "We work to detect fradulent conversations",
+    title: "Fradulent conversations happen all over the world, ranging from simple deception to crimes",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +18,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "Fradulent conversations happen all over the world, ranging from simple deception to crimes",
+    title: "We want to make sure you know when you are part of one.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -28,15 +28,15 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
+    title: "languages",
+    description: "We used many",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
     img: "",
     spareImg: "",
   },
-  {
+  {/*{
     id: 4,
     title: "Tech enthusiast with a passion for development.",
     description: "",
@@ -56,7 +56,7 @@ export const gridItems = [
     titleClassName: "justify-center md:justify-start lg:justify-center",
     img: "/b5.svg",
     spareImg: "/grid.svg",
-  },
+  },*/}
   {
     id: 6,
     title: "Do you want to start a project together?",
