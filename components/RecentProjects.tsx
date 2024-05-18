@@ -12,7 +12,10 @@ const RecentProjects = () => {
         Our project's{" "}
         <span className="text-purple">components</span>
       </h1>
-      <div className="form-container">
+      <h1 className="heading">
+        
+      </h1>
+  <div className="form-container">
     <iframe
       src="https://docs.google.com/forms/d/e/1FAIpQLSdCX3ZcrrsdomOTXLcnphzurhDrb_29ZKeW2Z74L5Qgn_UANg/viewform?embedded=true"
       width="640"
