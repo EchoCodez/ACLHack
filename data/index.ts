@@ -8,7 +8,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "Fradulent conversations happen all over the world, ranging from simple deception to crimes",
+    title: "Our goal is to catch criminal conversations before a crime happens",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +18,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "We want to make sure you know when you are part of one.",
+    title: "Our algorithm allows criminal conversations to be detected quickly.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
