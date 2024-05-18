@@ -36,7 +36,7 @@ export const gridItems = [
     img: "",
     spareImg: "",
   },
-  {/*{
+  {
     id: 4,
     title: "Tech enthusiast with a passion for development.",
     description: "",
@@ -56,7 +56,7 @@ export const gridItems = [
     titleClassName: "justify-center md:justify-start lg:justify-center",
     img: "/b5.svg",
     spareImg: "/grid.svg",
-  },*/}
+  },
   {
     id: 6,
     title: "Do you want to start a project together?",
