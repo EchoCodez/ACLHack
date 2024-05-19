@@ -10,6 +10,8 @@
 
 Go to our website:  <a href="https://crimidect.netlify.app" target="_blank"> <b> crimidect.netlify.app </b></a>
 
+**IMPORTANT NOTE**: You MUST turn on third party cookies for the google form to work!
+
 When the sever is up and running (which can be done by cloning the repository and running results.py), the google form will provide a nearly instantaneous report.
 
 ## <a name="introduction">🤖 About</a>
