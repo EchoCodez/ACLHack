@@ -32,7 +32,7 @@ def get_confirm_token(response):
 def save_response_content(response, destination):
     with open(destination, "wb") as f:
         for chunk in response.iter_content(32768):
-            if chunk: # filter out keep-alive new chunks
+            if chunk:
                 f.write(chunk)
 
 def speech_to_text(file_path):
