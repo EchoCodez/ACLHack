@@ -51,12 +51,12 @@ const Hero = () => {
            *  change md:text-6xl, add more responsive code
            */}
           <TextGenerateEffect
-            words="Detecting Fradulent Conversations"
+            words="Crimidect"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Our goal is to detect which conversations of your may have a malicious intent.
+            Detect conversations that have malicious intent and giving instant results.
           </p>
 
           <a href="#about">
