@@ -56,7 +56,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Detect conversations that have malicious intent and giving instant results.
+            Instantly detect conversations that have malicious intent.
           </p>
 
           <a href="#about">
