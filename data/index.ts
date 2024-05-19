@@ -143,7 +143,7 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "100s of thousands of people in the US are detectives",
+    title: "Hundreds of thousands of people in the US are detectives",
     desc: "Our product helps them to detect criminal conversations quickly and creates a unbiased and accurate way to detect fraudulent texts.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
