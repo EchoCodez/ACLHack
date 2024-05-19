@@ -16,7 +16,6 @@ def stot(path):
     return text
 
 def get_id_from_link(link):
-    # Split the link by the '=' character and get the second part
     id = link.split('=')[1]
     return id
 
