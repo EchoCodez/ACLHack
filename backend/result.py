@@ -21,11 +21,11 @@ def get_id_from_link(link):
 
 def get_data(body):
     data = ws1.get_all_records()[-1].get("Upload conversation audio here")
-    for i in stot(get_id_from_link(data)).split("."):
+    for i in stot(get_id_from_link(data)).split(". "):
         result = classify_message(i)
         if result == "Fraudulent":
             body += (f'The speech "{i}" is classified as {result}\n')
-    for j in str(ws1.get_all_records()[-1].get("Put the transcript of your conversation here")).split("."):
+    for j in str(ws1.get_all_records()[-1].get("Put the transcript of your conversation here")).split(". "):
         result2 = classify_message(j)
         if result2 == "Fraudulent":
             body += (f'The message "{j}" is classified as {result2}\n')
