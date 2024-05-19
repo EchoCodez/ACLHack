@@ -110,3 +110,4 @@ def classify_message(message):
     padded_sequence = pad_sequences(sequence, maxlen=100, padding='post', truncating='post')
     prediction = model.predict(padded_sequence)
     return 'Fraudulent' if prediction >= 0.5 else 'Good'
+
